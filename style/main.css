@@ -1,0 +1,395 @@
+
+@font-face {
+    src:url("/fonts/Montserrat-Medium.ttf");
+    font-family: 'Montserrat-Medium';
+}
+
+@font-face {
+    src: url("/fonts/Montserrat-Regular.ttf");
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    src: url("/fonts/Montserrat-ExtraBold.ttf");
+    font-family: 'Montserrat-ExtraBold';
+}
+
+body {
+    padding: 0px;
+    margin: 0%;
+    font-family: 'Montserrat';
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(90.7deg, #29317E -0.36%, #1C2251 99.41%);
+}
+
+.item-info {
+    height: 826px;
+    width: 100%;
+    background: #FFF;
+}
+
+.ecosystem {
+    height: 757px;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.additional {
+    height: 806px;
+    width: 100%;
+    background: linear-gradient(90.7deg, #29317E -0.36%, #1C2251 99.41%);
+}
+
+.payment {
+    height: 716px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.advantages {
+    width: 100%;
+    height: 1080px;
+    background: linear-gradient(90.7deg, #29317E -0.36%, #1C2251 99.41%);
+}
+
+.clients {
+    height: 526px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.questions {
+    width: 100%;
+    height: 318px;
+    background: linear-gradient(90.7deg, #29317E -0.36%, #1C2251 99.41%);
+}
+
+.map {
+    width: 100%;
+    height: 520px;
+}
+
+.footer {
+    width: 100%;
+    height: 149px;
+    background: linear-gradient(90.7deg, #29317E -0.36%, #1C2251 99.41%);
+}
+
+.header .logo {
+    position: absolute;
+    left: 405px; 
+    color: #FFF;
+    font-size: 33px;
+    font-weight: 800;
+    font-family: 'Montserrat-ExtraBold';
+}
+
+.main .header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #39407A;
+    display: flex;
+    align-items: center;
+}
+
+.header .phone {
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    left: 1297px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header .phone .number {
+    margin-left: 13px;
+}
+
+.main .content {
+    width: 100%;
+    height: 910px;
+}
+
+.main .content .lines .line {
+    position: absolute;
+    height: 910px;
+    width: 1px;
+    background-color: #39407A;
+}
+
+.main .content .lines .line1 {
+    left: 110px;
+}
+
+.main .content .lines .line2 {
+    left: 448px;
+    height: 109px;
+}
+
+.main .content .lines .line3 {
+    left: 448px;
+    height: 255px;
+    top: 745px;
+}
+
+.main .content .lines .line4 {
+    left: 787px;
+    height: 109px;
+}
+
+.main .content .lines .line5 {
+    left: 787px;
+    height: 626px;
+    top: 375px;
+}
+
+.main .content .lines .line6 {
+    left: 1125px;
+    z-index: 0;
+}
+
+.main .content .lines .line7 {
+    left: 1464px;
+    z-index: 0;
+}
+
+.main .content .lines .line8 {
+    left: 1802px;
+    z-index: 0;
+}
+
+.main .content .info {
+    font-size: 34px;
+    font-weight: 800;
+    color: #FFF;
+    position: absolute;
+    left: 405px;
+    top: 220px;
+    line-height: 45px;
+    display: grid;
+    grid-template-areas: "paragraph"
+                          "points"
+                          "call";
+                          gap: 1em;
+}
+
+.main .content .info h1{
+    grid-area: paragraph;  
+}
+
+h1 {
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 34px;
+    margin: 0px;
+}
+
+.main .content .info .asic {
+    color: #e4b53f;
+}
+
+.main .content .info .points .point1 .circle {
+    position: relative;
+    top: 12px;
+    left: -1px;
+}
+
+.main .content .info .points .point1 {
+    display: flex;
+    grid-area: point1;
+    font-family: 'Montserrat-Medium';
+}
+
+.main .content .info .points .point2 {
+    display: flex;
+    grid-area: point2;
+    font-family: 'Montserrat-Medium';
+}
+
+.main .content .info .points .point3 {
+    display: flex;
+    grid-area: point3;
+    font-family: 'Montserrat-Medium';
+}
+
+.main .content .info .points .point1 .line-svg {
+    position: relative;
+    top: 12px;
+    left: -2px;
+}
+
+.main .content .info .points {
+    font-size: 16px;
+    display: grid;
+    grid-template-areas: "point1"
+                         "point2"
+                         "point3"; 
+    gap: 20px;
+    grid-area: points;
+}
+
+.main .content .info .points .point1 .text-point {
+    font-weight: 400;
+    position: relative;
+    left: 15px;
+    top: 14px;
+}
+
+.main .content .info .points .point2 .text-point {
+    font-weight: 400;
+    position: relative;
+    left: 16px;
+    top: 1px;
+}
+
+.main .content .info .points .point3 .text-point {
+    font-weight: 400;
+    position: relative;
+    margin-top: -26px;
+    left: 14px;
+    top: 12px;
+}
+
+.main .content .info .points .point3 .circle {
+    margin-top: -2px;
+}
+
+.main .content .info .points .point3 .line {
+    margin-top: -7px;
+}
+
+.main .content .info .call {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    border-radius: 100px;
+    border: 2px solid #F2A04A;
+    grid-area: call;
+}
+
+.main .content .info .call:hover {
+    background-color: #F2A04A;
+}
+
+.main .content .info .call:visited {
+    background-color: #00be00;
+    border: 2px solid #00be00;
+}
+
+.main .content .info .call .text {
+    font-size: 16px;
+    position: absolute;
+    left: 71px;
+    letter-spacing: 1px;
+}
+
+.main .content .info .call .call-line {
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    left: 29px;
+    background-color:  #FFFFFF;
+    margin-top: -2px;
+}
+
+.main .content .photo {
+    background-image: url('/img/main.png');
+    width: 986px;
+    height: 905px;
+    position: absolute;
+    left: 738px;
+    margin-top: -68px;
+    grid-area: main-photo;
+}
+
+.main .content .mouse {
+    position: absolute;
+    left: 946px;
+    top: 870px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    .main {
+        height: 1031px;
+    }
+
+    .main .header .phone .number {
+        display: none;
+    }
+
+    .main .header .phone {
+        left: 334px;
+    }
+
+    .main .header .logo {
+        left: 15px;
+        font-size: 29px;
+        margin-top: -1px;
+    }
+
+    .main .header {
+        height: 75px;
+    }
+
+    .main .content .line {
+        display: none;
+    }
+
+    .main .content .info {
+        top: 93px;
+        left: 15px;
+        font-size: 20px;
+        line-height: 30px;
+        grid-template-areas: "paragraph"
+                             "main-photo"
+                             "points"
+                             "call";
+        gap: 245px;
+    }
+
+    .main .content .info h1 {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .main .content .info .points {
+        gap: 34px;
+    }
+
+    .main .content .info .points .point3 .text-point {
+        top: 18px;
+    }
+
+    .main .content .info .points .point3 {
+        margin-top: -3px;
+        margin-left: -1px;
+    }
+
+    .main .content .info .call {
+        margin-top: -187px;
+    }
+
+    .main .content .photo {
+        background-image: url('/img/main-phone.png');
+        width: 375px;
+        height: 500px;
+        left: 0px;
+        top: 273px;
+        background-repeat: no-repeat;       
+    }
+
+    .main .content .mouse {
+        display: none;
+    }
+}
