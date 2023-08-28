@@ -1,31 +1,31 @@
      /* {cursor: url(https://ani.cursors-4u.net/people/peo-9/peo1041.cur), auto !important;} */
 @font-face {
-    src: url("/fonts/Montserrat-SemiBold.ttf");
+    src: url("../fonts/Montserrat-SemiBold.ttf");
     font-family: 'Montserrat-SemiBold';
 }
 
 @font-face {
-    src: url("/fonts/Montserrat-Black.ttf");
+    src: url("../fonts/Montserrat-Black.ttf");
     font-family: 'Montserrat-Black';
 }
 
 @font-face {
-    src:url("/fonts/Montserrat-Medium.ttf");
+    src:url("../fonts/Montserrat-Medium.ttf");
     font-family: 'Montserrat-Medium';
 }
 
 @font-face {
-    src: url("/fonts/Montserrat-Regular.ttf");
+    src: url("../fonts/Montserrat-Regular.ttf");
     font-family: 'Montserrat';
 }
 
 @font-face {
-    src: url("/fonts/Montserrat-ExtraBold.ttf");
+    src: url("../fonts/Montserrat-ExtraBold.ttf");
     font-family: 'Montserrat-ExtraBold';
 }
 
 @font-face {
-    src: url("/fonts/Montserrat-Bold.ttf");
+    src: url("../fonts/Montserrat-Bold.ttf");
     font-family: 'Montserrat-Bold';
 }
 
@@ -103,7 +103,7 @@ a {
     top: 6087px;
     width: 100%;
     height: 520px;
-    background-image: url("/img/map.png");
+    background-image: url("../img/map.png");
     padding-left: 405px;
 }
 
@@ -332,7 +332,7 @@ h1 {
 }
 
 .main .content .photo {
-    background-image: url('/img/main.png');
+    background-image: url('../img/main.png');
     width: 986px;
     height: 905px;
     position: absolute;
@@ -397,7 +397,7 @@ h1 {
 }
 
 .item-info .content .price .photo {
-    background-image: url("/img/image-culler.png");
+    background-image: url("../img/image-culler.png");
     width: 540px;
     height: 363px;
     grid-area: price-culler;
@@ -414,7 +414,7 @@ h1 {
     width: 139px;
     height: 50px;
     background-repeat: no-repeat;
-    background-image: url("/img/2270$.svg");
+    background-image: url("../img/2270$.svg");
 }
 
 .item-info .content .price .value .value1 .element2 {
@@ -433,7 +433,7 @@ h1 {
     width: 139px;
     height: 50px;
     background-repeat: no-repeat;
-    background-image: url("/img/2770$.svg");
+    background-image: url("../img/2770$.svg");
 }
 
 .item-info .content .price .value .value2 .element2 {
@@ -747,7 +747,7 @@ h1 {
 .ecosystem .content .structure .circle {
     width: 64px;
     height: 64px;
-    background-image: url("/img/elipce-eco.svg");
+    background-image: url("../img/elipce-eco.svg");
     position: absolute;
     left: 503px;
     top: 378px;
@@ -758,7 +758,7 @@ h1 {
     width: 546px;
     height: 545px;
     position: absolute;
-    background-image: url("/img/kolo1.svg");
+    background-image: url("../img/kolo1.svg");
     left: 666px;
     top: 1963px;
 }
@@ -770,7 +770,7 @@ h1 {
     height: 719px;
     z-index: 2;
     position: absolute;
-    background-image: url("/img/kolo2.svg");
+    background-image: url("../img/kolo2.svg");
 }
 
 .ecosystem .content .kolo3 {  
@@ -780,7 +780,7 @@ h1 {
     top: 1793px;
     z-index: 2;
     position: absolute;
-    background-image: url("/img/kolo3.svg");
+    background-image: url("../img/kolo3.svg");
 }
 
 
@@ -924,7 +924,7 @@ h1 {
     width: 102px;
     height: 59px;
     background-repeat: no-repeat;
-    background-image: url("/img/100$.svg");
+    background-image: url("../img/100$.svg");
 }
 
 .additional .price .cost2 {
@@ -978,7 +978,7 @@ h1 {
 }
 
 .additional .additional-photo .photo {
-    background-image: url("/img/additional.png");
+    background-image: url("../img/additional.png");
     z-index: 999;
     width: 528px;
     height: 373px;
@@ -986,7 +986,7 @@ h1 {
 
 .additional .additional-photo .form {
     width: 528px;
-    background-image: url("/img/additional-form.svg");
+    background-image: url("../img/additional-form.svg");
     height: 373px;
     position: relative;
     z-index: 0;
@@ -1073,13 +1073,13 @@ h1 {
 .payment .content .items .item1 .logo {
     height: 61px;
     width: 61px;
-    background-image: url("/img/money.svg");
+    background-image: url("../img/money.svg");
 }
 
 .payment .content .items .item2 .logo {
     height: 61px;
     width: 61px;
-    background-image: url("/img/bill.svg");
+    background-image: url("../img/bill.svg");
     margin-left: 2px;
 }
 
@@ -1087,14 +1087,14 @@ h1 {
     margin-top: 3px;
     height: 58px;
     width: 70px;
-    background-image: url("/img/credit-card.svg");
+    background-image: url("../img/credit-card.svg");
 }
 
 .payment .content .items .item4 .logo {
     margin-top: -8px;
     height: 71px;
     width: 71px;
-    background-image: url("/img/blockchain.svg");
+    background-image: url("../img/blockchain.svg");
 }
 
 .payment .content .items * .name {
@@ -1176,28 +1176,28 @@ h1 {
     margin-top: 2px;
     width: 61px;
     height: 64px;
-    background-image: url("/img/box.svg");
+    background-image: url("../img/box.svg");
 }
 
 .advantages .content .list .item2 .logo {
     margin-top: 2px;
     width: 64px;
     height: 64px;
-    background-image: url("/img/certificate.svg");
+    background-image: url("../img/certificate.svg");
 }
 
 .advantages .content .list .item3 .logo {
     margin-top: 9px;
     width: 77px;
     height: 49px;
-    background-image: url("/img/shipped.svg");
+    background-image: url("../img/shipped.svg");
 }
 
 .advantages .content .list .item4 .logo {
     margin-top: 2px;
     width: 65px;
     height: 66px;
-    background-image: url("/img/settings.svg");
+    background-image: url("../img/settings.svg");
 }
 
 .advantages .content .list .item5 .logo {
@@ -1205,13 +1205,13 @@ h1 {
     margin-top: 2px;
     width: 63px;
     height: 66px;
-    background-image: url("/img/business.svg");
+    background-image: url("../img/business.svg");
 }
 
 .advantages .content .list .item6 .logo {
     margin-top: 2px;
     height: 66px;
-    background-image: url("/img/lawyer.svg");
+    background-image: url("../img/lawyer.svg");
 }
 
 .advantages .content .list .name {
@@ -1562,7 +1562,7 @@ h1 {
         top: 6176px;
         width: 100%;
         height: 640px;
-        background-image: url("/img/map-mobile.png");
+        background-image: url("../img/map-mobile.png");
         padding-left: 17px;
     }
     
@@ -1644,7 +1644,7 @@ h1 {
     }
 
     .main .content .photo {
-        background-image: url('/img/main-phone.png');
+        background-image: url('../img/main-phone.png');
         width: 375px;
         height: 500px;
         left: 0px;
@@ -1700,7 +1700,7 @@ h1 {
         width: 108px;
         height: 46px;
         position: absolute;
-        background-image: url("/img/2270$-phone.svg");
+        background-image: url("../img/2270$-phone.svg");
         top: -70px;
         left: -93px;
     }
@@ -1716,7 +1716,7 @@ h1 {
         background-repeat: no-repeat;
         width: 108px;
         height: 46px;
-        background-image: url("/img/2770$-phone.svg");
+        background-image: url("../img/2770$-phone.svg");
         position: absolute;
         top: -72px;
         left: -107px;
@@ -1731,7 +1731,7 @@ h1 {
 
     .item-info .content .price .photo {
         background-repeat: no-repeat;
-        background-image: url("/img/culler-telephone.png");
+        background-image: url("../img/culler-telephone.png");
         width: 540px;
         height: 363px;
         grid-area: price-culler;
@@ -1782,7 +1782,7 @@ h1 {
     }
 
     .additional .additional-photo .photo {
-        background-image: url("/img/additional-phone.png");
+        background-image: url("../img/additional-phone.png");
         z-index: 999;
         width: 388px;
         height: 231px;
@@ -1799,7 +1799,7 @@ h1 {
     
     .additional .additional-photo .form {
         width: 528px;
-        background-image: url("/img/form-phone.svg");
+        background-image: url("../img/form-phone.svg");
         background-repeat: no-repeat;
         height: 373px;
         position: absolute;
@@ -1982,7 +1982,7 @@ h1 {
         margin-top: 2px;
         width: 57px;
         height: 58px;
-        background-image: url("/img/settings-mobile.svg");
+        background-image: url("../img/settings-mobile.svg");
     }
 
     .advantages .content .list .item4 .name {
@@ -2515,7 +2515,7 @@ h1 {
     .ecosystem .content .structure .circle {
         width: 64px;
         height: 64px;
-        background-image: url("/img/elipce-eco.svg");
+        background-image: url("../img/elipce-eco.svg");
         position: absolute;
         left: 503px;
         top: 378px;
