@@ -1,5 +1,4 @@
-* {cursor: url(https://ani.cursors-4u.net/people/peo-9/peo1041.cur), auto !important;} 
-
+     /* {cursor: url(https://ani.cursors-4u.net/people/peo-9/peo1041.cur), auto !important;} */
 @font-face {
     src: url("/fonts/Montserrat-SemiBold.ttf");
     font-family: 'Montserrat-SemiBold';
@@ -34,7 +33,6 @@ body {
     padding: 0px;
     margin: 0%;
     font-family: 'Montserrat';
-    background-color: blackZz;
 }
 
 body * {
